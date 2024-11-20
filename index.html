@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 
+
 <style>
     @font-face {
         font-family: "PixelifySans Medium";
@@ -22,7 +23,8 @@
         src: url("./style/PixelifySans-Bold.ttf");
     }
 
-    h2, h3 {
+    h2,
+    h3 {
         font-family: "PixelifySans Medium";
     }
 
@@ -33,19 +35,43 @@
     h1 {
         font-family: "PixelifySans Bold", sans-serif
     }
+
+    body {
+        background-color: #f9f5d7;
+        color: #282828;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        body {
+            background-color: #282828;
+            color: #f9f5d7;
+        }
+    }
+
+    [data-theme="dark"] {
+        background-color: #282828;
+        color: #f9f5d7;
+    }
+
+    [data-theme="light"] {
+        background-color: #f9f5d7;
+        color: #282828;
+    }
 </style>
 
 <head>
     <meta charset="UTF-8">
     <title>@thenil3sh</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
     <center>
-        <div style="width : 400px">
-            <h1>you, there! thanks for visiting! you're looking <b>@thenil3sh</b>'s profile page right now. . .</h1>
+        <div style="width : 450px">
+            <h1>you, there! thanks for visiting! you're looking @thenil3sh's profile page right now. . .</h1>
             <h5>looks awful, ikr</h5><br>
-            <h2>rn, im rooting into webassembly with Rust, so, this page still has better days to see  
+            <h2>rn, im rooting into webassembly with Rust, so, this page still has better days to see
             </h2>
             <h6><s>i guess</s></h6>
             <h3>This will take long but won't take forever!! hoping that you visit again :D, you will, right?</h3>
