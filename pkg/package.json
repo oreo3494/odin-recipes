@@ -1,14 +1,14 @@
 {
-  "name": "rockpaper",
+  "name": "calc",
   "type": "module",
   "version": "0.1.0",
   "files": [
-    "rockpaper_bg.wasm",
-    "rockpaper.js",
-    "rockpaper.d.ts"
+    "calc_bg.wasm",
+    "calc.js",
+    "calc.d.ts"
   ],
-  "main": "rockpaper.js",
-  "types": "rockpaper.d.ts",
+  "main": "calc.js",
+  "types": "calc.d.ts",
   "sideEffects": [
     "./snippets/*"
   ]
